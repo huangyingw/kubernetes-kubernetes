@@ -1,0 +1,14 @@
+[remote "origin"]
+    url = git@github.com:huangyingw/kubernetes-kubernetes.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "kubernetes"]
+    url = git@github.com:kubernetes/kubernetes.git
+    fetch = +refs/heads/*:refs/remotes/kubernetes/*
+[branch "master"]
+    remote = kubernetes
+    merge = refs/heads/master
+[push]
+    remote = origin
+[gsync]
+    remote = kubernetes
+    branch = master
