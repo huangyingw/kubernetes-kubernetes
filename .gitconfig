@@ -4,6 +4,9 @@
 [remote "kubernetes"]
     url = git@github.com:kubernetes/kubernetes.git
     fetch = +refs/heads/*:refs/remotes/kubernetes/*
+[branch "dev"]
+    remote = origin
+    merge = refs/heads/dev
 [branch "master"]
     remote = kubernetes
     merge = refs/heads/master
