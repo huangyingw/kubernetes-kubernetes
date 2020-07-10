@@ -12,3 +12,5 @@
 [gsync]
     remote = kubernetes
     branch = master
+[gdif]    
+    ignore = install.sh
